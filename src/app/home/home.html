@@ -1,0 +1,9 @@
+<div class="main-container">
+    @switch(company?.name) {
+        @case('adn') {
+            <app-adn
+                [company]="company"
+            ></app-adn>
+        }
+    }
+</div>
